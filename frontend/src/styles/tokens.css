@@ -1,0 +1,112 @@
+:root {
+  --font-sans: 'Public Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-figure: 'Spectral', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-code: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-md: 0.875rem;
+  --text-lg: 1rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --control-h: 40px;
+  --control-h-sm: 32px;
+  --topbar-h: 60px;
+  --sidebar-w: 320px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: #eceff4;
+  --surface: #ffffff;
+  --surface-2: #f5f7fa;
+  --surface-sunk: #e4e8ef;
+  --line: #dde2ea;
+  --line-strong: #c8cfdb;
+
+  --ink: #141b2d;
+  --ink-2: #4a5368;
+  --ink-3: #737c91;
+
+  --credit: #2742b0;
+  --credit-hover: #1f3794;
+  --credit-soft: #e8ecfa;
+  --credit-rule: rgba(39, 66, 176, 0.11);
+
+  --debit: #b42c2c;
+  --debit-hover: #9a2323;
+  --debit-soft: #fbeceb;
+  --debit-rule: rgba(180, 44, 44, 0.22);
+  --debit-mark: #ff9b92;
+
+  --warn: #8a5a00;
+  --warn-soft: #fbf3e2;
+  --warn-line: #ecd9ad;
+
+  --on-accent: #ffffff;
+  --focus: #2742b0;
+
+  --shadow-sm: 0 1px 2px rgba(20, 27, 45, 0.06);
+  --shadow-md: 0 1px 2px rgba(20, 27, 45, 0.05), 0 8px 24px -12px rgba(20, 27, 45, 0.18);
+  --shadow-lg: 0 24px 64px -16px rgba(20, 27, 45, 0.32);
+  --backdrop: rgba(20, 27, 45, 0.42);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: #0d1221;
+  --surface: #141a2b;
+  --surface-2: #192034;
+  --surface-sunk: #0a0f1c;
+  --line: #242c43;
+  --line-strong: #313a55;
+
+  --ink: #e7eaf3;
+  --ink-2: #a9b0c4;
+  --ink-3: #7c849b;
+
+  --credit: #8ea4ff;
+  --credit-hover: #a9baff;
+  --credit-soft: rgba(142, 164, 255, 0.12);
+  --credit-rule: rgba(142, 164, 255, 0.09);
+
+  --debit: #ff8f86;
+  --debit-hover: #ffa79f;
+  --debit-soft: rgba(255, 143, 134, 0.12);
+  --debit-rule: rgba(255, 143, 134, 0.2);
+  --debit-mark: #c2332b;
+
+  --warn: #f2c36b;
+  --warn-soft: rgba(242, 195, 107, 0.1);
+  --warn-line: rgba(242, 195, 107, 0.28);
+
+  --on-accent: #0d1221;
+  --focus: #8ea4ff;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px -16px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 24px 64px -12px rgba(0, 0, 0, 0.7);
+  --backdrop: rgba(4, 7, 15, 0.62);
+}
